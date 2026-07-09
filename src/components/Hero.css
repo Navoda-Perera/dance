@@ -1,0 +1,312 @@
+/* Hero.css */
+
+/* ---- Hero Section ---- */
+.hero {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 120px 20px 60px;
+  overflow: hidden;
+}
+
+/* Background video/image container */
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+}
+
+.hero-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.18;
+}
+
+/* Gradient overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(168,85,247,0.35) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 80%, rgba(245,197,24,0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 60% at 20% 90%, rgba(6,182,212,0.2) 0%, transparent 60%),
+    linear-gradient(180deg, rgba(5,5,16,0.3) 0%, rgba(5,5,16,0.9) 100%);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 860px;
+  margin: 0 auto;
+  animation: fadeInUp 0.9s ease both;
+}
+
+/* Logo */
+.hero-logo {
+  margin: 0 auto 24px;
+  width: clamp(180px, 40vw, 320px);
+  animation: float 4s ease-in-out infinite;
+  filter: drop-shadow(0 0 40px rgba(245,197,24,0.6)) drop-shadow(0 0 80px rgba(168,85,247,0.4));
+}
+
+.hero-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Title */
+.hero-title {
+  font-family: var(--font-logo);
+  font-size: clamp(2.2rem, 7vw, 5rem);
+  line-height: 1.05;
+  margin-bottom: 6px;
+  animation: glitch 8s ease-in-out infinite;
+  text-shadow: 0 0 40px rgba(245,197,24,0.5);
+  background: linear-gradient(135deg, #f5c518 0%, #ff4da6 30%, #a855f7 55%, #06b6d4 80%, #22c55e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle-event {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 2.5vw, 1.1rem);
+  color: var(--gold);
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Rainbow divider under title */
+.hero-divider {
+  width: 200px;
+  height: 3px;
+  background: var(--gradient-rainbow);
+  border-radius: 2px;
+  margin: 0 auto 28px;
+}
+
+/* Tagline */
+.hero-tagline {
+  font-size: clamp(1.1rem, 3.5vw, 1.6rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+.hero-description {
+  font-size: clamp(0.92rem, 2vw, 1.1rem);
+  color: var(--text-secondary);
+  max-width: 640px;
+  margin: 0 auto 32px;
+  line-height: 1.75;
+}
+
+/* Prize badges */
+.hero-prizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.prize-badge {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  backdrop-filter: blur(10px);
+  transition: var(--trans-fast);
+}
+
+.prize-badge:hover { transform: translateY(-2px); }
+
+.prize-badge.gold {
+  background: linear-gradient(135deg, rgba(245,197,24,0.2), rgba(255,107,53,0.15));
+  border-color: rgba(245,197,24,0.5);
+  color: var(--gold-light);
+}
+
+.prize-badge.purple {
+  background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(232,121,249,0.1));
+  border-color: rgba(168,85,247,0.4);
+  color: #d8b4fe;
+}
+
+.prize-badge.cyan {
+  background: linear-gradient(135deg, rgba(6,182,212,0.2), rgba(34,197,94,0.1));
+  border-color: rgba(6,182,212,0.4);
+  color: #67e8f9;
+}
+
+/* Competition card */
+.hero-competition-card {
+  margin: 0 auto 36px;
+  max-width: 520px;
+  padding: 28px 32px;
+  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(245,197,24,0.25);
+  backdrop-filter: blur(20px);
+}
+
+.hero-competition-title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.hero-competition-sub {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+}
+
+.hero-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 0;
+}
+
+.hero-category-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.98rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: var(--trans-fast);
+}
+
+.hero-category-item:hover {
+  background: rgba(245,197,24,0.08);
+  border-color: rgba(245,197,24,0.2);
+}
+
+.cat-icon {
+  font-size: 1.3rem;
+}
+
+/* CTA */
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.hero-deadline {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+.hero-deadline span {
+  color: #fca5a5;
+  font-weight: 600;
+}
+
+/* Scroll indicator */
+.scroll-indicator {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  animation: fadeInUp 1.5s ease 0.8s both;
+}
+
+.scroll-indicator-bar {
+  width: 2px;
+  height: 40px;
+  background: linear-gradient(to bottom, var(--gold), transparent);
+  border-radius: 1px;
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Help banner below hero */
+.help-banner {
+  background: linear-gradient(135deg, rgba(75,0,130,0.8), rgba(0,30,60,0.8));
+  border-top: 1px solid rgba(245,197,24,0.2);
+  border-bottom: 1px solid rgba(245,197,24,0.2);
+  padding: 18px 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 2;
+}
+
+.help-banner-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.help-banner-label {
+  font-weight: 700;
+  color: var(--gold);
+  font-size: 1rem;
+}
+
+.help-banner-numbers {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.help-banner-number {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 5px 16px;
+  border-radius: 50px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  text-decoration: none;
+  transition: var(--trans-fast);
+}
+
+.help-banner-number:hover {
+  background: rgba(37,211,102,0.2);
+  border-color: #25d366;
+  color: #25d366;
+}
+
+@media (max-width: 640px) {
+  .hero { padding: 100px 16px 50px; }
+  .hero-competition-card { padding: 20px 18px; }
+}

@@ -1,0 +1,29 @@
+/* App.css — Layout & App-level styles */
+
+.app {
+  min-height: 100vh;
+  background: var(--bg-deep);
+  position: relative;
+}
+
+/* Particle background canvas */
+.particles-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  animation: particle-float linear infinite;
+  opacity: 0.4;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+}
