@@ -16,8 +16,8 @@
   --green: #22c55e;
   --orange: #f97316;
 
-  --bg-deep: #050510;
-  --bg-dark: #0a0a1a;
+  --bg-deep: #020202;
+  --bg-dark: #0a0a0a;
   --bg-card: rgba(255,255,255,0.04);
   --bg-glass: rgba(255,255,255,0.07);
 
@@ -28,14 +28,15 @@
   --border-glass: rgba(255,255,255,0.12);
   --border-gold: rgba(245,197,24,0.4);
 
-  --gradient-hero: linear-gradient(135deg, #1a0533 0%, #050510 40%, #001a2c 100%);
-  --gradient-gold: linear-gradient(135deg, #f5c518, #ff8c00, #e879f9);
-  --gradient-rainbow: linear-gradient(90deg, #f5c518, #ef4444, #a855f7, #06b6d4, #22c55e);
-  --gradient-card: linear-gradient(135deg, rgba(168,85,247,0.15), rgba(6,182,212,0.08));
+  --gradient-hero: linear-gradient(135deg, #111 0%, #020202 40%, #000 100%);
+  --gradient-gold: linear-gradient(135deg, #ffe066, #f5c518, #8b4513);
+  --gradient-rainbow: linear-gradient(90deg, #ffe066, #f5c518, #8b4513);
+  --gradient-card: linear-gradient(135deg, rgba(245, 197, 24, 0.08), rgba(0, 0, 0, 0.5));
 
   /* Typography */
-  --font-logo: 'Rubik Glitch', 'Permanent Marker', sans-serif;
-  --font-display: 'Permanent Marker', cursive;
+  --font-logo: 'Bebas Neue', 'Rajdhani', sans-serif;
+  --font-hero-title: 'Bebas Neue', 'Oswald', sans-serif;
+  --font-display: 'Rajdhani', 'Inter', sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-sinhala: 'Noto Sans Sinhala', sans-serif;
 
@@ -130,7 +131,7 @@ body {
 .btn-register {
   display: inline-block;
   padding: 18px 48px;
-  background: linear-gradient(135deg, #f5c518 0%, #ff6b35 50%, #a855f7 100%);
+  background: linear-gradient(135deg, #ffe066 0%, #f5c518 50%, #8b4513 100%);
   color: #000;
   font-family: var(--font-body);
   font-weight: 800;
@@ -144,7 +145,7 @@ body {
   position: relative;
   overflow: hidden;
   transition: var(--trans-med);
-  box-shadow: 0 0 30px rgba(245,197,24,0.5), 0 0 60px rgba(168,85,247,0.3);
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.3);
   animation: pulse-glow 2.5s ease-in-out infinite;
 }
 
@@ -160,7 +161,7 @@ body {
 .btn-register:hover::before { left: 100%; }
 .btn-register:hover {
   transform: translateY(-3px) scale(1.04);
-  box-shadow: 0 10px 40px rgba(245,197,24,0.7), 0 0 80px rgba(168,85,247,0.5);
+  box-shadow: 0 8px 30px rgba(245, 197, 24, 0.5);
   color: #000;
 }
 
@@ -168,7 +169,7 @@ body {
 
 /* ============ GRADIENT TEXT ============ */
 .gradient-text-gold {
-  background: linear-gradient(135deg, #f5c518, #ffad00, #ff6b35);
+  background: var(--gradient-gold);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -185,8 +186,8 @@ body {
 
 /* ============ KEYFRAMES ============ */
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 30px rgba(245,197,24,0.5), 0 0 60px rgba(168,85,247,0.3); }
-  50% { box-shadow: 0 0 50px rgba(245,197,24,0.8), 0 0 100px rgba(168,85,247,0.6); }
+  0%, 100% { box-shadow: 0 0 20px rgba(245, 197, 24, 0.3); }
+  50% { box-shadow: 0 0 35px rgba(245, 197, 24, 0.5); }
 }
 
 @keyframes rainbow-shift {
@@ -230,6 +231,8 @@ body {
 .section-title {
   font-family: var(--font-display);
   font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -245,7 +248,7 @@ body {
 .img-placeholder {
   width: 100%;
   border-radius: var(--radius-md);
-  background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(6,182,212,0.15));
+  background: rgba(255, 255, 255, 0.03);
   border: 2px dashed rgba(245,197,24,0.4);
   display: flex;
   flex-direction: column;
@@ -262,9 +265,13 @@ body {
   font-size: 2rem;
 }
 
+
+
 /* ============ SINHALA FONT ============ */
 .lang-si {
   font-family: var(--font-sinhala);
+  line-height: 1.2;
+  
 }
 
 /* ============ RESPONSIVE ============ */

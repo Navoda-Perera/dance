@@ -18,19 +18,19 @@ export default function Hero({ c, lang }) {
         {/* Background: replace src with your own video/image path */}
         <div className="hero-bg">
           {/* BACKGROUND IMAGE SLOT — replace /hero-bg.jpg with your image */}
-          <img
+          {/*  <img
             className="hero-bg-image"
             src="/hero-bg.jpg"
             alt=""
             aria-hidden="true"
             onError={(e) => { e.target.style.display = 'none'; }}
-          />
+          /> */}
           {/* BACKGROUND VIDEO SLOT — uncomment and replace src */}
-          {/*
-          <video className="hero-bg-video" autoPlay muted loop playsInline>
-            <source src="/hero-bg.mp4" type="video/mp4" />
-          </video>
-          */}
+          {
+            <video className="hero-bg-video" autoPlay muted loop playsInline>
+              <source src="/hero-bg.mp4" type="video/mp4" />
+            </video>
+          }
         </div>
         <div className="hero-overlay" aria-hidden="true" />
 
@@ -42,7 +42,6 @@ export default function Hero({ c, lang }) {
 
           {/* Title */}
           <h1 className="hero-title">Dance Verz Competition 2026</h1>
-          <p className="hero-subtitle-event">Hethen Live</p>
 
           <div className="hero-divider" aria-hidden="true" />
 
@@ -53,7 +52,6 @@ export default function Hero({ c, lang }) {
           {/* Prize badges */}
           <div className="hero-prizes" role="list" aria-label="Prizes">
             <div className="prize-badge gold" role="listitem">🏆 {h.prize}</div>
-            <div className="prize-badge purple" role="listitem">🎁 {h.weekly}</div>
             <div className="prize-badge cyan" role="listitem">🌍 {h.reach}</div>
           </div>
 

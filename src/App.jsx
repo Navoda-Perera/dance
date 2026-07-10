@@ -5,7 +5,7 @@ import './App.css';
 import { content } from './content';
 
 import Particles from './components/Particles';
-import LanguageSwitcher from './components/LanguageSwitcher';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ImageSlider from './components/ImageSlider';
 import Accordion from './components/Accordion';
@@ -21,12 +21,8 @@ export default function App() {
       {/* Decorative floating particles */}
       <Particles count={30} />
 
-      {/* Fixed language switcher / nav */}
-      <LanguageSwitcher
-        currentLang={lang}
-        onLangChange={setLang}
-        labels={c.langBar}
-      />
+      {/* Sticky navigation bar */}
+      <Navbar lang={lang} onLangChange={setLang} />
 
       {/* Main page content */}
       <main className="main-content">
@@ -35,6 +31,8 @@ export default function App() {
 
         {/* 2. Image / Photo slider */}
         <ImageSlider label={lang === 'si' ? 'ඡායාරූප' : 'Gallery'} />
+
+  
 
         {/* 3. Competition info accordions */}
         <Accordion c={c} tracks={c.tracks} lang={lang} />

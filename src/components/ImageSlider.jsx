@@ -8,15 +8,15 @@ import './ImageSlider.css';
 // Default placeholder slides (replace with real image paths)
 // To add real images: put them in /public/slides/ and add paths to SLIDE_IMAGES
 const SLIDE_IMAGES = [
-  // '/slides/slide1.jpg',
-  // '/slides/slide2.jpg',
+  '/slides/slide1.jpg',
+  '/slides/slide2.jpg',
   // '/slides/slide3.jpg',
   // '/slides/slide4.jpg',
 ];
 
 const PLACEHOLDER_COUNT = 4; // shown when no real images provided
 
-export default function ImageSlider({ label = 'Gallery' }) {
+export default function ImageSlider({ label = '' }) {
   const hasImages = SLIDE_IMAGES.length > 0;
   const total = hasImages ? SLIDE_IMAGES.length : PLACEHOLDER_COUNT;
 

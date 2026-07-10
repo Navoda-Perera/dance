@@ -23,8 +23,9 @@
 .hero-bg-video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   opacity: 0.25;
+  margin-top: -17rem;
 }
 
 .hero-bg-image {
@@ -34,17 +35,6 @@
   opacity: 0.18;
 }
 
-/* Gradient overlay */
-.hero-overlay {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(168,85,247,0.35) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 50% at 80% 80%, rgba(245,197,24,0.2) 0%, transparent 60%),
-    radial-gradient(ellipse 70% 60% at 20% 90%, rgba(6,182,212,0.2) 0%, transparent 60%),
-    linear-gradient(180deg, rgba(5,5,16,0.3) 0%, rgba(5,5,16,0.9) 100%);
-  z-index: 1;
-}
 
 .hero-content {
   position: relative;
@@ -56,26 +46,29 @@
 
 /* Logo */
 .hero-logo {
-  margin: 0 auto 24px;
-  width: clamp(180px, 40vw, 320px);
+  margin: 0 auto 1px;
+  margin-top: -4rem;
+  width: clamp(220px, 48vw, 420px);
   animation: float 4s ease-in-out infinite;
-  filter: drop-shadow(0 0 40px rgba(245,197,24,0.6)) drop-shadow(0 0 80px rgba(168,85,247,0.4));
+  filter: drop-shadow(0 0 40px rgba(245, 197, 24, 0.6)) drop-shadow(0 0 80px rgba(168, 85, 247, 0.4));
 }
 
 .hero-logo img {
-  width: 100%;
+  width: 90%;
   height: auto;
   object-fit: contain;
+
 }
 
 /* Title */
 .hero-title {
   font-family: var(--font-logo);
-  font-size: clamp(2.2rem, 7vw, 5rem);
-  line-height: 1.05;
+  font-size: clamp(2.6rem, 8vw, 8rem);
+  line-height: 1.0;
+  letter-spacing: 0.06em;
+  margin-top: -2rem;
   margin-bottom: 6px;
-  animation: glitch 8s ease-in-out infinite;
-  text-shadow: 0 0 40px rgba(245,197,24,0.5);
+  text-shadow: 0 0 40px rgba(245, 197, 24, 0.5);
   background: linear-gradient(135deg, #f5c518 0%, #ff4da6 30%, #a855f7 55%, #06b6d4 80%, #22c55e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -137,23 +130,21 @@
   transition: var(--trans-fast);
 }
 
-.prize-badge:hover { transform: translateY(-2px); }
+.prize-badge:hover {
+  transform: translateY(-2px);
+}
 
 .prize-badge.gold {
-  background: linear-gradient(135deg, rgba(245,197,24,0.2), rgba(255,107,53,0.15));
-  border-color: rgba(245,197,24,0.5);
+  background: linear-gradient(135deg, rgba(245, 197, 24, 0.2), rgba(255, 107, 53, 0.15));
+  border-color: rgba(245, 197, 24, 0.5);
   color: var(--gold-light);
 }
 
-.prize-badge.purple {
-  background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(232,121,249,0.1));
-  border-color: rgba(168,85,247,0.4);
-  color: #d8b4fe;
-}
+
 
 .prize-badge.cyan {
-  background: linear-gradient(135deg, rgba(6,182,212,0.2), rgba(34,197,94,0.1));
-  border-color: rgba(6,182,212,0.4);
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.2), rgba(34, 197, 94, 0.1));
+  border-color: rgba(6, 182, 212, 0.4);
   color: #67e8f9;
 }
 
@@ -163,14 +154,16 @@
   max-width: 520px;
   padding: 28px 32px;
   border-radius: var(--radius-lg);
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(245,197,24,0.25);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(245, 197, 24, 0.25);
   backdrop-filter: blur(20px);
 }
 
 .hero-competition-title {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   margin-bottom: 8px;
 }
 
@@ -196,14 +189,14 @@
   font-weight: 500;
   padding: 8px 14px;
   border-radius: var(--radius-sm);
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   transition: var(--trans-fast);
 }
 
 .hero-category-item:hover {
-  background: rgba(245,197,24,0.08);
-  border-color: rgba(245,197,24,0.2);
+  background: rgba(245, 197, 24, 0.08);
+  border-color: rgba(245, 197, 24, 0.2);
 }
 
 .cat-icon {
@@ -254,9 +247,9 @@
 
 /* Help banner below hero */
 .help-banner {
-  background: linear-gradient(135deg, rgba(75,0,130,0.8), rgba(0,30,60,0.8));
-  border-top: 1px solid rgba(245,197,24,0.2);
-  border-bottom: 1px solid rgba(245,197,24,0.2);
+  background: linear-gradient(135deg, rgba(75, 0, 130, 0.8), rgba(0, 30, 60, 0.8));
+  border-top: 1px solid rgba(245, 197, 24, 0.2);
+  border-bottom: 1px solid rgba(245, 197, 24, 0.2);
   padding: 18px 20px;
   text-align: center;
   backdrop-filter: blur(10px);
@@ -294,19 +287,24 @@
   font-size: 0.95rem;
   padding: 5px 16px;
   border-radius: 50px;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   text-decoration: none;
   transition: var(--trans-fast);
 }
 
 .help-banner-number:hover {
-  background: rgba(37,211,102,0.2);
+  background: rgba(37, 211, 102, 0.2);
   border-color: #25d366;
   color: #25d366;
 }
 
 @media (max-width: 640px) {
-  .hero { padding: 100px 16px 50px; }
-  .hero-competition-card { padding: 20px 18px; }
+  .hero {
+    padding: 100px 16px 50px;
+  }
+
+  .hero-competition-card {
+    padding: 20px 18px;
+  }
 }

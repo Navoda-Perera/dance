@@ -12,8 +12,8 @@ export const content = {
     hero: {
       tagline: "Your Stage. Your Style. Your Moment!",
       description:
-        "A platform to showcase your talent, grow as an artist, and perform for audiences across Sri Lanka.",
-      prize: "Grand Prize – LKR 100,000",
+        "Choose your favorite song from the 10 official competition playlist and create a performance that showcases your unique style. A platform to discover talent, celebrate creativity, and connect dancers from across Sri Lanka. ",
+      prize: "Monthly Grand Prize & Exclusive Opportunities - LKR 150,000",
       weekly: "Weekly Winners & Special Rewards Throughout the Competition",
       reach: "Get recognized island-wide!",
       competition: "Freestyle Dance Competition",
@@ -40,7 +40,7 @@ export const content = {
           "All categories compete for the same prize. There will be no separate Solo, Duet, or Group winners.",
           "For Duet and Group entries, prize money will be transferred to one nominated member's bank account only.",
           "Any dance style is welcome.",
-          "Participants must create their performance using ONE official Dance Verz competition track.",
+          "Participants may perform using any music track of their choice.",
           "Participants must submit their competition video before 25th July 2026. Late submissions will not be accepted.",
           "Videos must be 30–90 seconds and recorded in vertical (9:16) format.",
           "All submissions must follow the official competition guidelines.",
@@ -77,31 +77,18 @@ export const content = {
       video: {
         title: "Video Guidelines",
         items: [
-          "Video duration must be 30–60 seconds.",
+          "Video duration must be 30–90 seconds.",
           "Record in vertical (9:16) format.",
           "Submit in high quality (minimum 1080p HD recommended).",
-          "Use only audio from the official competition playlist in your video.",
+          "Participants may perform using any music track of their choice.",
         ],
-        playlistTitle: "Competition Playlist",
-        playlistNote: "Choose ONE track from the official playlist below:",
-        tutorialTitle: "Tutorial Video",
-        tutorialNote: "How to Record & Upload your competition video",
-        tutorialPlaceholder: "Tutorial video will be added here",
+        
       },
     },
 
     // Tracks
     tracks: [
-      { n: "Track 01", genre: "Trending Pop" },
-      { n: "Track 02", genre: "Hip-Hop / Urban" },
-      { n: "Track 03", genre: "Sinhala Pop" },
-      { n: "Track 04", genre: "Tamil Dance" },
-      { n: "Track 05", genre: "Electronic / EDM" },
-      { n: "Track 06", genre: "Baila / Folk" },
-      { n: "Track 07", genre: "R&B / Soul" },
-      { n: "Track 08", genre: "Afrobeats" },
-      { n: "Track 09", genre: "K-Pop Inspired" },
-      { n: "Track 10", genre: "Bollywood" },
+      
     ],
 
     // Contact
@@ -131,11 +118,10 @@ export const content = {
     langBar: { en: "English", si: "සිංහල", ta: "தமிழ்" },
 
     hero: {
-      tagline: "ඔබේ වේදිකාව. ඔබේ ස්ටයිල් එක. ඔබේ මොහොත!",
+      tagline: "ඕනෑම ශෛලයක්! ඕනෑම ශිල්පියෙක්! ඔබේම වේදිකාවක්…",
       description:
-        "ඔබේ නර්තන දක්ෂතා ලොවට පෙන්වීමට, කලාකරුවෙකු ලෙස ඉදිරියට යාමට සහ ශ්‍රී ලංකාව පුරා ප්‍රේක්ෂකයින් අතර ඔබේ නම ගෙන යාමට හොඳම අවස්ථාව.",
-      prize: "ප්‍රධාන ත්‍යාගය – රු. 100,000",
-      weekly: "සෑම සතියකම ජයග්‍රාහකයින් සඳහා ත්‍යාග සහ විශේෂ තෑගි",
+        "ඔබේ දක්ශතාවයෙන් ලෝකයම හොල්ලන්න!.ඔබගේ රිද්මයට ගැලපෙන ඕනෑම ගීත කන්ඩයක් භාවිතාකර, ඔබටම අනන්‍ය නිර්මානාත්මක නර්තන වීඩියෝවක් නිර්මානයකර තරඟාවලියට ඉදිරිපත් කරන්න. සතිපතා සහ මාස්පතා ජයග්‍රහයකයන්ට මුදල් ත්‍යාග, නර්තන ප්‍රසංග, සම්මුඛසාකච්චා ඇතුලු වටිනා අවස්තාවන් රැසක්.",
+      prize: "ප්‍රධාන ත්‍යාගය – රු. 150,000",
       reach: "දිවයින පුරා ඔබේ දක්ෂතාව හඳුන්වා දෙන්න!",
       competition: "Freestyle Dance Competition",
       competitionSub: "ඔබ කැමති ඕනෑම නර්තන ශෛලියකින් තරඟ කරන්න. තරඟ කළ හැකි ආකාර:",
@@ -156,15 +142,15 @@ export const content = {
         items: [
           "වයස අවුරුදු 16 හෝ ඊට වැඩි ඕනෑම අයෙකුට සහභාගි විය හැක.",
           "Solo, Duet හෝ Group ලෙස තරඟ කළ හැක.",
-          "සියලුම තරඟකරුවන් එකම ත්‍යාග සඳහා තරඟ කරයි. Solo, Duet, Group ලෙස වෙන වෙනම ජයග්‍රාහකයින් නොමැත.",
-          "Duet හා Group ඇතුළත් කිරීම් සඳහා, ත්‍යාග මුදල් නිතිපතා නම් කළ සාමාජිකයෙකුගේ බැංකු ගිණුමට පමණක් හස්තාන්තරණය කෙරේ.",
+          "සියලුම තරඟකරුවන් එකම ත්‍යාග සඳහා තරඟ කරයි.",
+          "Solo, Duet, Group ලෙස වෙන වෙනම ජයග්‍රාහකයින් නොමැත",
           "ඕනෑම නර්තන ශෛලියක් භාවිතා කළ හැක.",
-          "නිල තරඟ Playlist එකේ ගීතයක් භාවිතා කර නිර්මාණාත්මක නර්තනයක් ඉදිරිපත් කළ යුතුය.",
-          "වීඩියෝව 2026 ජූලි 25 ට පෙර ඉදිරිපත් කළ යුතුය. ප්‍රමාදෙන් ඉදිරිපත් කිරීම් භාර ගනු නොලැබේ.",
-          "වීඩියෝව තත්පර 30 සිට 90 දක්වා සහ Vertical (9:16) ආකාරයෙන් පටිගත කළ යුතුය.",
-          "නිල වීඩියෝ ඉදිරිපත් කිරීමේ උපදෙස් අනුගමනය කරන්න.",
-          "ව්‍යාජ Likes, Comments, Shares, පිටපත් කිරීම (Plagiarism), අපහාසාත්මක අන්තර්ගතය හෝ Copyright උල්ලංඝනය කිරීම තහනම් අතර දඩ ලකුණු පොල්ලට ලක් වේ.",
-          "සියලුම වීඩියෝ සහ තොරතුරු සත්‍යාපනය කිරීමේ අයිතිය සංවිධායකයන් සතු අතර අවසාන තීරණය සංවිධායක මණ්ඩලය විසින් ගනු ලැබේ.",
+          "ඔබගේ රිද්මයට ගැලපෙන ඕනෑම ගීත කන්ඩයක් භාවිතාකර නර්තන වීඩියෝව නිර්මානය සිදුකල හැක.",
+          "වීඩියෝව තත්පර 30 සිට 90 දක්වා විය යුතුය.",
+          "වීඩියෝව Vertical (9:16) ආකාරයෙන් පටිගත කළ යුතුය.",
+          "ව්‍යාජ Likes, Comments, Shares, පිටපත් කිරීම (Plagiarism), අපහාසාත්මක අන්තර්ගත හෝ Copyright උල්ලංඝනය කිරීම තහනම්ය.",
+          "අවශ්‍ය නම් සියලුම වීඩියෝ සහ තොරතුරු සත්‍යාපනය කිරීමේ අයිතිය සංවිධායකයන් සතුය.",
+          "අවසන් තීරණය සංවිධායක මණ්ඩලය විසින් ගනු ලැබේ."
         ],
       },
       scoring: {
@@ -173,14 +159,14 @@ export const content = {
           "සියලුම තරඟ වීඩියෝ නිල Dance Verz 2026 නාලිකා හරහා ප්‍රකාශිත කෙරේ:",
         platforms: ["YouTube", "Facebook", "TikTok"],
         engagementNote:
-          "ජයග්‍රාහකයා තෝරා ගනු ලබන්නේ ඔවුන්ගේ නිල තරඟ වීඩියෝ හරහා ලැබෙන සම්පූර්ණ ප්‍රේක්ෂක නිරත වීම මත පදනම්ව ය.",
-        votingNote: "ඡන්ද කාලය අවසානයේ නිරතවීම ගණනය කෙරේ:",
+          "ජයග්‍රාහකයා තීරණය කරනු ලබන්නේ ඉහත වේදිකා තුනෙහිම තරඟකරුවන්ගේ නිල තරඟ වීඩියෝව සඳහා ලැබී ඇති සමස්ත ප්‍රේක්ෂක ප්‍රතිචාර (audience engagement) මත පදනම්වය.",
+        votingNote: "මනාප ලබා දීමේ කාලසීමාව අවසානයේදී ලකුණු ගණනය කරනු ලබන්නේ පහත පරිදිය:",
         points: [
           { icon: "❤️", label: "Like 1", value: "ලකුණු 1" },
           { icon: "💬", label: "Comment 1", value: "ලකුණු 3" },
           { icon: "📤", label: "Share 1", value: "ලකුණු 5" },
         ],
-        tableTitle: "ලකුණු ගණනය කිරීමේ උදාහරණය",
+        tableTitle: "ජයග්‍රාහකයා තෝරන ආකාරය උදාහරණයක්",
         tableHeaders: ["ලකුණු නිර්ණායකය", "YouTube", "Facebook", "TikTok"],
         tableRows: [
           ["❤️ Like 1 = ලකුණු 1", "Likes 100 × 1 = ලකුණු 100", "Likes 1000 × 1 = ලකුණු 1000", "Likes 50 × 1 = ලකුණු 50"],
@@ -196,30 +182,16 @@ export const content = {
       video: {
         title: "වීඩියෝ සඳහා උපදෙස්",
         items: [
-          "වීඩියෝ කාලය තත්පර 30 – 60 අතර විය යුතුය.",
+          "වීඩියෝ කාලය තත්පර 30 – 90 අතර විය යුතුය.",
           "Vertical (9:16) ආකාරයෙන් පටිගත කළ යුතුය.",
           "අවම වශයෙන් 1080p HD ගුණාත්මකභාවයෙන් වීඩියෝව ඉදිරිපත් කිරීම නිර්දේශ කෙරේ.",
-          "නිල Competition Playlist හි ගීතයක් පමණක් භාවිතා කළ යුතුය.",
-        ],
-        playlistTitle: "Competition Playlist",
-        playlistNote: "නිල Playlist එකෙන් ගීතයක් තෝරා ගන්න:",
-        tutorialTitle: "Tutorial Video",
-        tutorialNote: "වීඩියෝව පටිගත කර Upload කරන ආකාරය",
-        tutorialPlaceholder: "Tutorial Video මෙහි ඇතුළත් කෙරේ",
+          "ඔබගේ රිද්මයට ගැලපෙන ඕනෑම ගීත කන්ඩයක් භාවිතාකර නර්තන වීඩියෝව නිර්මානය සිදුකල හැක.",
+
+        ]
       },
     },
 
     tracks: [
-      { n: "ගීත 01", genre: "ජනප්‍රිය පොප්" },
-      { n: "ගීත 02", genre: "හිප්-හොප් / නාගරික" },
-      { n: "ගීත 03", genre: "සිංහල පොප්" },
-      { n: "ගීත 04", genre: "දමිළ නර්තන" },
-      { n: "ගීත 05", genre: "ඉලෙක්ට්‍රොනික / EDM" },
-      { n: "ගීත 06", genre: "බයිලා / ජන" },
-      { n: "ගීත 07", genre: "R&B / සෝල්" },
-      { n: "ගීත 08", genre: "අෆ්‍රෝබීට්ස්" },
-      { n: "ගීත 09", genre: "K-Pop ආභාසය" },
-      { n: "ගීත 10", genre: "බොලිවුඩ්" },
     ],
 
     contact: {

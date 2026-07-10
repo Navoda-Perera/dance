@@ -45,11 +45,7 @@ function ScoringBody({ c, tracks }) {
       </p>
       {/* Scoring example image */}
       <div style={{ textAlign: 'center', marginBottom: 12 }}>
-        <img
-          src="/scoring-example.png"
-          alt="Scoring example table"
-          style={{ maxWidth: '100%', borderRadius: 'var(--radius-md)', opacity: 0.92 }}
-        />
+        
       </div>
       <div className="scoring-table-wrap">
         <table className="scoring-table" aria-label="Scoring example table">
@@ -92,7 +88,7 @@ function VideoBody({ c, tracks }) {
       </ul>
 
       {/* Competition Playlist */}
-      <p className="playlist-header">{c.video.playlistTitle}</p>
+    {/*  <p className="playlist-header">{c.video.playlistTitle}</p>
       <p className="playlist-note">{c.video.playlistNote}</p>
       <div className="playlist-grid" role="list" aria-label="Competition tracks">
         {tracks.map((track, i) => (
@@ -101,10 +97,10 @@ function VideoBody({ c, tracks }) {
             <div className="track-genre">{track.genre}</div>
           </div>
         ))}
-      </div>
+      </div> */}
 
       {/* Tutorial Video */}
-      <div className="tutorial-block" id="tutorial-video">
+     {/* <div className="tutorial-block" id="tutorial-video">
         <div className="tutorial-block-header">🎬 {c.video.tutorialTitle}</div>
         <div className="tutorial-block-note">{c.video.tutorialNote}</div>
         {/* ---- VIDEO EMBED SLOT ----
@@ -117,7 +113,8 @@ function VideoBody({ c, tracks }) {
               allowFullScreen
             />
         */}
-        <div className="video-embed-placeholder" aria-label={c.video.tutorialPlaceholder}>
+        
+      {/*  <div className="video-embed-placeholder" aria-label={c.video.tutorialPlaceholder}>
           <div className="video-embed-icon">▶</div>
           <span>{c.video.tutorialPlaceholder}</span>
           <span style={{ fontSize: '0.78rem', color: 'rgba(255,255,255,0.25)' }}>
@@ -125,6 +122,9 @@ function VideoBody({ c, tracks }) {
           </span>
         </div>
       </div>
+    </div>
+    */}
+    
     </div>
   );
 }
@@ -164,7 +164,7 @@ export default function Accordion({ c, tracks, lang }) {
   return (
     <section
       className={`accordion-section${isSi ? ' lang-si' : ''}`}
-      id="competition-info"
+      id="competition"
       aria-label="Competition information"
     >
       <div className="container">
