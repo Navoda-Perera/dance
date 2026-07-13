@@ -27,7 +27,7 @@ export default function Hero({ c, lang }) {
           /> */}
           {/* BACKGROUND VIDEO SLOT — uncomment and replace src */}
           {
-            <video className="hero-bg-video" autoPlay muted loop playsInline>
+            <video className="hero-bg-video" autoPlay muted loop playsInline webkit-playsinline="true">
               <source src="/hero-bg.mp4" type="video/mp4" />
             </video>
           }

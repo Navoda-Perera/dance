@@ -10,7 +10,7 @@ import './ImageSlider.css';
 const SLIDE_IMAGES = [
   '/slides/slide1.jpg',
   '/slides/slide2.jpg',
-  // '/slides/slide3.jpg',
+  '/slides/slide3.jpg',
   // '/slides/slide4.jpg',
 ];
 
