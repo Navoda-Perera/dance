@@ -21,9 +21,30 @@ function ScoringBody({ c, tracks }) {
     <div>
       <p className="scoring-intro">{c.scoring.intro}</p>
       <div className="scoring-platforms">
-        <span className="platform-tag yt">▶ YouTube</span>
-        <span className="platform-tag fb">📘 Facebook</span>
-        <span className="platform-tag tt">🎵 TikTok</span>
+        <a
+          href={c.scoring.socialLinks.youtube}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="platform-tag yt"
+        >
+          ▶ YouTube
+        </a>
+        <a
+          href={c.scoring.socialLinks.facebook}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="platform-tag fb"
+        >
+          📘 Facebook
+        </a>
+        <a
+          href={c.scoring.socialLinks.tiktok}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="platform-tag tt"
+        >
+          🎵 TikTok
+        </a>
       </div>
       <p className="scoring-intro">{c.scoring.engagementNote}</p>
       <p className="scoring-intro" style={{ marginTop: 8 }}>{c.scoring.votingNote}</p>

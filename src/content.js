@@ -53,6 +53,11 @@ export const content = {
         intro:
           "All competition videos will be published on the official Dance Verz 2026 channels on:",
         platforms: ["YouTube", "Facebook", "TikTok"],
+         socialLinks: {
+                      youtube: "https://youtube.com/@hethenlive?si=f85XVYsb39iXLS1A",
+                      facebook: "https://www.facebook.com/profile.php?id=61590363440079",
+                      tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
+                      },
         engagementNote:
           "The winner will be decided based on the total audience engagement received on their official competition video across all three platforms.",
         votingNote: "Engagement will be calculated at the end of the voting period:",
@@ -158,6 +163,11 @@ export const content = {
         intro:
           "සියලුම තරඟ වීඩියෝ නිල Dance Verz 2026 නාලිකා හරහා ප්‍රකාශිත කෙරේ:",
         platforms: ["YouTube", "Facebook", "TikTok"],
+        socialLinks: {
+                      youtube: "https://youtube.com/@hethenlive?si=f85XVYsb39iXLS1A",
+                      facebook: "https://www.facebook.com/profile.php?id=61590363440079",
+                      tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
+                      },
         engagementNote:
           "ජයග්‍රාහකයා තීරණය කරනු ලබන්නේ ඉහත වේදිකා තුනෙහිම තරඟකරුවන්ගේ නිල තරඟ වීඩියෝව සඳහා ලැබී ඇති සමස්ත ප්‍රේක්ෂක ප්‍රතිචාර (audience engagement) මත පදනම්වය.",
         votingNote: "මනාප ලබා දීමේ කාලසීමාව අවසානයේදී ලකුණු ගණනය කරනු ලබන්නේ පහත පරිදිය:",

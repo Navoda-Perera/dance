@@ -167,6 +167,24 @@
   border-radius: 50px;
   font-size: 0.85rem;
   font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.platform-tag:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.platform-tag:active {
+  transform: translateY(0);
+}
+
+.platform-tag:visited {
+  color: inherit;
 }
 
 .platform-tag.yt { background: rgba(255,0,0,0.2); border: 1px solid rgba(255,0,0,0.4); color: #f87171; }
