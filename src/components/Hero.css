@@ -47,14 +47,14 @@
 /* Logo */
 .hero-logo {
   margin: 0 auto 1px;
-  margin-top: -4rem;
+  margin-top: -3rem;
   width: clamp(220px, 48vw, 420px);
   animation: float 4s ease-in-out infinite;
   filter: drop-shadow(0 0 40px rgba(245, 197, 24, 0.6)) drop-shadow(0 0 80px rgba(168, 85, 247, 0.4));
 }
 
 .hero-logo img {
-  width: 90%;
+  width: 70%;
   height: auto;
   object-fit: contain;
 
@@ -66,7 +66,7 @@
   font-size: clamp(2.6rem, 8vw, 8rem);
   line-height: 1.0;
   letter-spacing: 0.06em;
-  margin-top: -2rem;
+  margin-top: 2rem;
   margin-bottom: 6px;
   text-shadow: 0 0 40px rgba(245, 197, 24, 0.5);
   background: linear-gradient(135deg, #f5c518 0%, #ff4da6 30%, #a855f7 55%, #06b6d4 80%, #22c55e 100%);
