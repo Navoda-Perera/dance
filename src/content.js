@@ -27,7 +27,7 @@ export const content = {
     helpBanner: {
       label: "Need Help?",
       whatsapp: "WhatsApp",
-      numbers: ["075 378 6640", "076 832 2045"],
+      numbers: ["077 448 5721"],
     },
 
     // Accordion sections
@@ -97,9 +97,9 @@ export const content = {
       subtitle:
         "Need assistance with registration or uploading your video? Our team is available to help with registration, video submissions, and any competition-related questions.",
       items: [
-        { icon: "📞", label: "Contact Numbers", values: ["075 378 6640", "076 832 2045"] },
-        { icon: "💬", label: "WhatsApp Support", values: ["075 378 6640", "076 832 2045"] },
-        { icon: "📧", label: "Email Address", values: ["danceverz2026@gmail.com"] },
+        { icon: "📞", label: "Contact Numbers", values: ["070 489 9278"] },
+        { icon: "💬", label: "WhatsApp Support", values: ["077 448 5721"] },
+        { icon: "📧", label: "Email Address", values: ["chathuka@hethen.live"] },
       ],
     },
 
@@ -133,7 +133,7 @@ export const content = {
     helpBanner: {
       label: "උදව් අවශ්‍යද?",
       whatsapp: "WhatsApp",
-      numbers: ["075 378 6640", "076 832 2045"],
+      numbers: ["077 448 5721"],
     },
 
     accordion: {
@@ -199,9 +199,9 @@ export const content = {
       subtitle:
         "ලියාපදිංචි වීම, වීඩියෝ Upload කිරීම හෝ තරඟය සම්බන්ධ ඕනෑම ගැටලුවක් සඳහා අප හා සම්බන්ධ වන්න.",
       items: [
-        { icon: "📞", label: "දුරකථන අංක", values: ["075 378 6640", "076 832 2045"] },
-        { icon: "💬", label: "WhatsApp", values: ["075 378 6640", "076 832 2045"] },
-        { icon: "📧", label: "Email", values: ["danceverz2026@gmail.com"] },
+        { icon: "📞", label: "දුරකථන අංක", values: ["070 489 9278 "] },
+        { icon: "💬", label: "WhatsApp", values: ["077 448 5721"] },
+        { icon: "📧", label: "Email", values: ["chathuka@hethen.live"] },
       ],
     },
 
