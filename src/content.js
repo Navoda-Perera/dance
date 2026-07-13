@@ -12,7 +12,7 @@ export const content = {
     hero: {
       tagline: "Your Stage. Your Style. Your Moment!",
       description:
-        "Choose your favorite song from the 10 official competition playlist and create a performance that showcases your unique style. A platform to discover talent, celebrate creativity, and connect dancers from across Sri Lanka. ",
+        "Dance Verz 2026 is your platform to discover talent, celebrate creativity, and connect dancers from across Sri Lanka. From bedroom dancers to professional crews, everyone gets a chance. Choose any song, film your performance, submit your video, and let your talent speak for itself. No stage. No travel. Just your moves, your music, and your moment!",
       prize: "Monthly Grand Prize & Exclusive Opportunities - LKR 150,000",
       weekly: "Weekly Winners & Special Rewards Throughout the Competition",
       reach: "Get recognized island-wide!",
@@ -118,9 +118,9 @@ export const content = {
     langBar: { en: "English", si: "සිංහල", ta: "தமிழ்" },
 
     hero: {
-      tagline: "ඕනෑම ශෛලයක්! ඕනෑම ශිල්පියෙක්! ඔබේම වේදිකාවක්…",
+      tagline: "ඔබේම වේදිකාව. ඔබේම රිද්මය. ඔබේම අවස්තාව!",
       description:
-        "ඔබේ දක්ශතාවයෙන් ලෝකයම හොල්ලන්න!.ඔබගේ රිද්මයට ගැලපෙන ඕනෑම ගීත කන්ඩයක් භාවිතාකර, ඔබටම අනන්‍ය නිර්මානාත්මක නර්තන වීඩියෝවක් නිර්මානයකර තරඟාවලියට ඉදිරිපත් කරන්න. සතිපතා සහ මාස්පතා ජයග්‍රහයකයන්ට මුදල් ත්‍යාග, නර්තන ප්‍රසංග, සම්මුඛසාකච්චා ඇතුලු වටිනා අවස්තාවන් රැසක්.",
+        "ඔබේ දක්ශතාවයෙන් ලෝකයම හොල්ලන්න!.ඔබගේ රිද්මයට ගැලපෙන ඕනෑම ගීත කන්ඩයක් භාවිතාකර, ඔබටම අනන්‍ය නිර්මානාත්මක නර්තන වීඩියෝවක් නිර්මානයකර තරඟාවලියට ඉදිරිපත් කරන්න. මාස්පතා ජයග්‍රහයකයන්ට මුදල් ත්‍යාග, නර්තන ප්‍රසංග ඇතුලු වටිනා අවස්තාවන් රැසක්.",
       prize: "ප්‍රධාන ත්‍යාගය – රු. 150,000",
       reach: "දිවයින පුරා ඔබේ දක්ෂතාව හඳුන්වා දෙන්න!",
       competition: "Freestyle Dance Competition",
@@ -177,7 +177,7 @@ export const content = {
         grandTotal: "🏆 සම්පූර්ණ ලකුණු: 2,285",
         winnerTitle: "ජයග්‍රාහකයා තෝරන ආකාරය",
         winnerText:
-          "YouTube, Facebook සහ TikTok හරහා ලබාගත් නිල Dance Verz තරඟ වීඩියෝවල සම්පූර්ණ ප්‍රේක්ෂක නිරතවීම් ලකුණු මත ශ්‍රේණිගත කිරීම සිදු කෙරේ. තරඟ කාලය අවසානයේ වැඩිම ලකුණු ලබාගත් තරඟකරු හෝ කණ්ඩායම Dance Verz Champion 2026 ලෙස කිරුළු පළඳිනු ලැබේ.",
+          "YouTube, Facebook සහ TikTok හරහා ලබාගත් නිල Dance Verz තරඟ වීඩියෝවල සම්පූර්ණ ප්‍රේක්ෂක ප්‍රතිචාර මත ශ්‍රේණිගත කිරීම සිදු කෙරේ. තරඟ කාලය අවසානයේ වැඩිම ලකුණු ලබාගත් තරඟකරු හෝ කණ්ඩායම Dance Verz Champion 2026 ලෙස කිරුළු පළඳිනු ලැබේ.",
       },
       video: {
         title: "වීඩියෝ සඳහා උපදෙස්",
