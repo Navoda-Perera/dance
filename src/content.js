@@ -27,7 +27,7 @@ export const content = {
     helpBanner: {
       label: "Need Help?",
       whatsapp: "WhatsApp",
-      numbers: ["077 448 5721"],
+      numbers: ["070 489 9278"],
     },
 
     // Accordion sections
@@ -97,8 +97,8 @@ export const content = {
       subtitle:
         "Need assistance with registration or uploading your video? Our team is available to help with registration, video submissions, and any competition-related questions.",
       items: [
-        { icon: "📞", label: "Contact Numbers", values: ["070 489 9278"] },
-        { icon: "💬", label: "WhatsApp Support", values: ["077 448 5721"] },
+        { icon: "📞", label: "Contact Numbers", values: ["077 448 5721"] },
+        { icon: "💬", label: "WhatsApp Support", values: ["070 489 9278"] },
         { icon: "📧", label: "Email Address", values: ["chathuka@hethen.live"] },
       ],
     },
@@ -133,7 +133,7 @@ export const content = {
     helpBanner: {
       label: "උදව් අවශ්‍යද?",
       whatsapp: "WhatsApp",
-      numbers: ["077 448 5721"],
+      numbers: ["070 489 9278"],
     },
 
     accordion: {
@@ -199,8 +199,8 @@ export const content = {
       subtitle:
         "ලියාපදිංචි වීම, වීඩියෝ Upload කිරීම හෝ තරඟය සම්බන්ධ ඕනෑම ගැටලුවක් සඳහා අප හා සම්බන්ධ වන්න.",
       items: [
-        { icon: "📞", label: "දුරකථන අංක", values: ["070 489 9278 "] },
-        { icon: "💬", label: "WhatsApp", values: ["077 448 5721"] },
+        { icon: "📞", label: "දුරකථන අංක", values: ["077 448 5721"] },
+        { icon: "💬", label: "WhatsApp", values: ["070 489 9278 "] },
         { icon: "📧", label: "Email", values: ["chathuka@hethen.live"] },
       ],
     },
