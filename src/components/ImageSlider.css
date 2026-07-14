@@ -6,15 +6,7 @@
   overflow: hidden;
 }
 
-.slider-section-title {
-  text-align: center;
-  font-family: var(--font-display);
-  font-size: 1.4rem;
-  color: var(--text-muted);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-bottom: 28px;
-}
+
 
 .slider-wrapper {
   position: relative;
