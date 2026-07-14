@@ -103,7 +103,7 @@ export default function Hero({ c, lang }) {
               <a
                 key={i}
                 id={`whatsapp-banner-${i}`}
-                href={`https://wa.me/${num.replace(/\s/g, '')}`}
+                href={`https://wa.me/94704899278`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="help-banner-number"

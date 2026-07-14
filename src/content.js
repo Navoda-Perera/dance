@@ -12,7 +12,7 @@ export const content = {
     hero: {
       tagline: "Your Stage. Your Style. Your Moment!",
       description:
-        "Dance Verz 2026 is your platform to discover talent, celebrate creativity, and connect dancers from across Sri Lanka. From bedroom dancers to professional crews, everyone gets a chance. Choose any song, film your performance, submit your video, and let your talent speak for itself. No stage. No travel. Just your moves, your music, and your moment!",
+        "Dance Verz 2026 is your platform to discover talent, celebrate creativity, and connect dancers from across Sri Lanka. From bedroom dancers to professional crews, everyone gets a chance. Choose any song, film one creative dance performance, submit your video, and let your talent speak for itself. No stage. No travel. Just your moves, your music, and your moment!",
       prize: "Monthly Grand Prize & Exclusive Opportunities - LKR 150,000",
       weekly: "Weekly Winners & Special Rewards Throughout the Competition",
       reach: "Get recognized island-wide!",
@@ -132,7 +132,7 @@ export const content = {
       competitionSub: "ඔබ කැමති ඕනෑම නර්තන ශෛලියකින් තරඟ කරන්න. තරඟ කළ හැකි ආකාර:",
       categories: ["තනි (Solo)", "යුගල (Duet)", "කණ්ඩායම් (උපරිම සාමාජිකයින් 5 දෙනෙක්)"],
       cta: "දැන් ලියාපදිංචි වන්න! →",
-      deadline: "ඉදිරිපත් කිරීමේ අවසන් දිනය: 2026 ජූලි 25",
+      deadline: "ලියාපදිංචි වීමේ අවසන් දිනය",
     },
 
     helpBanner: {
@@ -217,7 +217,7 @@ export const content = {
 
     footer: {
       copy: "© 2026 Dance Verz – Hethen Live. සියලු හිමිකම් ඇවිරිණි.",
-      tagline: "ඔබේ වේදිකාව. ඔබේ ස්ටයිල් එක. ඔබේ මොහොත!",
+      tagline: "ඔබේම වේදිකාව. ඔබේම රිද්මය. ඔබේම අවස්තාව!",
     },
   },
 };
