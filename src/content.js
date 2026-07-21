@@ -44,8 +44,8 @@ export const content = {
           "Participants must submit their competition video before 25th July 2026. Late submissions will not be accepted.",
           "Videos must be 30–90 seconds and recorded in vertical (9:16) format.",
           "All submissions must follow the official competition guidelines.",
-          "Fake engagement, plagiarism, offensive content, or copyright violations will result in disqualification.",
           "The organizers reserve the right to verify entries and make the final decision.",
+          "Only genuine engagement from Sri Lankan accounts will be counted. Foreign or artificial engagement, paid ads/boosted posts, purchased likes, comments or shares, bots, engagement exchange groups, plagiarism, offensive content, and copyright violations will result in immediate disqualification. The organizers reserve the right to verify all entries and engagement.",
         ],
       },
       scoring: {
@@ -153,9 +153,9 @@ export const content = {
           "ඔබගේ රිද්මයට ගැලපෙන ඕනෑම ගීත කන්ඩයක් භාවිතාකර නර්තන වීඩියෝව නිර්මානය සිදුකල හැක.",
           "වීඩියෝව තත්පර 30 සිට 90 දක්වා විය යුතුය.",
           "වීඩියෝව Vertical (9:16) ආකාරයෙන් පටිගත කළ යුතුය.",
-          "ව්‍යාජ Likes, Comments, Shares, පිටපත් කිරීම (Plagiarism), අපහාසාත්මක අන්තර්ගත හෝ Copyright උල්ලංඝනය කිරීම තහනම්ය.",
           "අවශ්‍ය නම් සියලුම වීඩියෝ සහ තොරතුරු සත්‍යාපනය කිරීමේ අයිතිය සංවිධායකයන් සතුය.",
-          "අවසන් තීරණය සංවිධායක මණ්ඩලය විසින් ගනු ලැබේ."
+          "අවසන් තීරණය සංවිධායක මණ්ඩලය විසින් ගනු ලැබේ.",
+          "ශ්‍රී ලාංකික සමාජ මාධ්‍ය ගිණුම්වලින් ලැබෙන සැබෑ Likes, Comments සහ Shares පමණක් ගණනය කරනු ලැබේ. Paid Ads/Boost කිරීම, මුදල් ගෙවා Engagement ලබාගැනීම, Bots හෝ Fake Accounts භාවිතය, Engagement Exchange Groups, වෙනත් අයගේ නිර්මාණ පිටපත් කිරීම, අපහාසාත්මක හෝ Copyright නීති උල්ලංඝනය කරන අන්තර්ගතයන් ඉදිරිපත් කිරීම සිදු කළහොත්, එම තරඟකරු වහාම තරඟයෙන් ඉවත් කරනු ලැබේ. සියලුම ඉදිරිපත් කිරීම් සහ Engagement විමර්ශනය කිරීමේ අයිතිය සංවිධායක මණ්ඩලය සතු වේ."
         ],
       },
       scoring: {
