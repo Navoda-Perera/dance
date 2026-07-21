@@ -47,7 +47,7 @@ export const content = {
           "The organizers reserve the right to verify entries and make the final decision.",
           "Only genuine engagement from Sri Lankan accounts will be counted. Foreign or artificial engagement, paid ads/boosted posts, purchased likes, comments or shares, bots, engagement exchange groups, plagiarism, offensive content, and copyright violations will result in immediate disqualification. The organizers reserve the right to verify all entries and engagement.",
           "All approved competition videos will be published on 31st July 2026.",
-"Public voting will be open from 31st July to 30th August 2026.",
+          "Public voting will be open from 31st July 2026 and will close on 30th August 2026 at 6:00 PM.",
           "The Dance Verz Champion 2026 will be announced on 31st August 2026."
         ],
       },
@@ -61,7 +61,7 @@ export const content = {
                       facebook: "https://www.facebook.com/profile.php?id=61590363440079",
                       tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
                       },
-        engagementNote:"Publishing Date: 31st July 2026    Voting Period: 31st July – 30th August 2026",
+        engagementNote:"Publishing Date: 31st July 2026    Voting Period: 31st July – 30th August 2026 (Voting will close at 6.00 p.m)",
         votingNote: "The winner will be determined based on the total audience engagement received on their official competition video across all three platforms. Engagement will be calculated only after the voting period closes.Engagement will be The winner will be decided based on the total audience engagement received on their official competition video across all three platforms.calculated at the end of the voting period:",
         points: [
           { icon: "❤️", label: "1 Like", value: "1 Point" },
@@ -79,7 +79,7 @@ export const content = {
         grandTotal: "🏆 Grand Total: 2,285 Points",
         winnerTitle: "Winner Selection",
         winnerText:
-          "The participant or team with the highest total engagement score at the end of the voting period (30th August 2026) will be crowned the Dance Verz Champion 2026. The official winner will be announced on 31st August 2026.",
+          "The participant or team with the highest total engagement score when voting closes at 6:00 PM on 30th August 2026 will be crowned the Dance Verz Champion 2026. The official winner will be announced on 31st August 2026.",
       },
       video: {
         title: "Video Guidelines",
@@ -159,7 +159,7 @@ export const content = {
           "අවසන් තීරණය සංවිධායක මණ්ඩලය විසින් ගනු ලැබේ.",
           "ශ්‍රී ලාංකික සමාජ මාධ්‍ය ගිණුම්වලින් ලැබෙන සැබෑ Likes, Comments සහ Shares පමණක් ගණනය කරනු ලැබේ. Paid Ads/Boost කිරීම, මුදල් ගෙවා Engagement ලබාගැනීම, Bots හෝ Fake Accounts භාවිතය, Engagement Exchange Groups, වෙනත් අයගේ නිර්මාණ පිටපත් කිරීම, අපහාසාත්මක හෝ Copyright නීති උල්ලංඝනය කරන අන්තර්ගතයන් ඉදිරිපත් කිරීම සිදු කළහොත්, එම තරඟකරු වහාම තරඟයෙන් ඉවත් කරනු ලැබේ. සියලුම ඉදිරිපත් කිරීම් සහ Engagement විමර්ශනය කිරීමේ අයිතිය සංවිධායක මණ්ඩලය සතු වේ.",
           "තරඟ කොන්දේසි සපුරනලද සියලුම වීඩියෝ 2026 ජූලි 31 වන දින ප්‍රකාශයට පත් කරනු ලැබේ.",
-          "ප්‍රේක්ශක ප්‍රතිචාර සඳහා (Public Voting) 2026 ජූලි 31 සිට අගෝස්තු 30 දක්වා විවෘතව පවතී.",
+          "ප්‍රේක්ෂක ප්‍රතිචාර සඳහා (Public Voting) 2026 ජූලි 31 සිට 2026 අගෝස්තු 30 ප.ව. 6.00 දක්වා විවෘතව පවතී.",
           "Dance Verz Champion 2026 ජයග්‍රාහකයා 2026 අගෝස්තු 31 වන දින නිල වශයෙන් ප්‍රකාශයට පත් කරනු ලැබේ"
         ],
       },
@@ -173,7 +173,7 @@ export const content = {
                       facebook: "https://www.facebook.com/profile.php?id=61590363440079",
                       tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
                       },
-        engagementNote:"ප්‍රකාශයට පත් කරන දිනය: 2026 ජූලි 31 මහජන ඡන්දය: 2026 ජූලි 31 සිට අගෝස්තු 30 දක්වා",
+        engagementNote:"ප්‍රකාශයට පත් කරන දිනය: 2026 ජූලි 31 ප්‍රේක්ෂක ප්‍රතිචාර සඳහා (Public Voting) : 2026 ජූලි 31 සිට 2026 අගෝස්තු 30 ප.ව. 6.00 දක්වා විවෘතව පවතී.",
         votingNote: "ජයග්‍රාහකයා තෝරාගනු ලබන්නේ, නිල තරඟ වීඩියෝවට TikTok, Facebook සහ YouTube යන සමාජ මාධ්‍ය වේදිකා තුනෙන්ම ලැබෙන සමස්ත ප්‍රේක්ෂක ප්‍රතිචාර (Likes, Comments සහ Shares) මත පදනම්වය. ප්‍රේක්ශක ප්‍රතිචාර සඳහා වෙන්කරන ලද කාලය අවසන්වූ පසු මෙම ප්‍රතිචාර එකතු කර ගණනය කර අවසන් ප්‍රතිඵලය තීරණය කරනු ලැබේ. මනාප ලබා දීමේ කාලසීමාව අවසානයේදී ලකුණු ගණනය කරනු ලබන්නේ පහත පරිදිය:",
         points: [
           { icon: "❤️", label: "Like 1", value: "ලකුණු 1" },
@@ -191,7 +191,7 @@ export const content = {
         grandTotal: "🏆 සම්පූර්ණ ලකුණු: 2,285",
         winnerTitle: "ජයග්‍රාහකයා තෝරන ආකාරය",
         winnerText:
-          "2026 අගෝස්තු 30 වන දින ප්‍රේක්ශක ප්‍රතිචාර සඳහාවූ කාලය අවසන්වන විට, නිල තරඟ වීඩියෝවට වැඩිම සමස්ත ප්‍රේක්ෂක ප්‍රතිචාර (Likes, Comments සහ Shares) ලබාගත් තරඟකරු හෝ කණ්ඩායම Dance Verz Champion 2026 ලෙස කිරුළු පළඳවනු ලැබේ.නිල ජයග්‍රාහකයා 2026 අගෝස්තු 31 වන දින ප්‍රකාශයට පත් කරනු ලැබේ.",
+          "2026 අගෝස්තු 30 වන දින ප.ව. 6.00ට මහජන ඡන්දය (Public Voting) අවසන් වන විට වැඩිම සමස්ත ප්‍රේක්ෂක ප්‍රතිචාර ලකුණු (Engagement Score) ලබාගත් තරඟකරු හෝ කණ්ඩායම Dance Verz Champion 2026 ලෙස කිරුළු පළඳිනු ලබයි. නිල ජයග්‍රාහකයා 2026 අගෝස්තු 31 වන දින ප්‍රකාශයට පත් කරනු ලැබේ.",
       },
       video: {
         title: "වීඩියෝ සඳහා උපදෙස්",
