@@ -56,12 +56,12 @@ export const content = {
         intro:
           "All competition videos will be published on the official Dance Verz 2026 channels on:",
         platforms: ["YouTube", "Facebook", "TikTok"],
-         socialLinks: {
-                      youtube: "https://youtube.com/@hethenlive?si=f85XVYsb39iXLS1A",
-                      facebook: "https://www.facebook.com/profile.php?id=61590363440079",
-                      tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
-                      },
-        engagementNote:"Publishing Date: 31st July 2026    Voting Period: 31st July – 30th August 2026 (Voting will close at 6.00 p.m)",
+        socialLinks: {
+          youtube: "https://youtube.com/@hethenlive?si=f85XVYsb39iXLS1A",
+          facebook: "https://www.facebook.com/profile.php?id=61590363440079",
+          tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
+        },
+        engagementNote: "Publishing Date: 31st July 2026    Voting Period: 31st July – 30th August 2026 (Voting will close at 6.00 p.m)",
         votingNote: "The winner will be determined based on the total audience engagement received on their official competition video across all three platforms. Engagement will be calculated only after the voting period closes.Engagement will be The winner will be decided based on the total audience engagement received on their official competition video across all three platforms.calculated at the end of the voting period:",
         points: [
           { icon: "❤️", label: "1 Like", value: "1 Point" },
@@ -77,6 +77,14 @@ export const content = {
           ["Platform Total", "510 Points", "1,685 Points", "90 Points"],
         ],
         grandTotal: "🏆 Grand Total: 2,285 Points",
+        fairPlay: {
+          title: "▶ Audience Engagement & Fair Play",
+          paragraphs: [
+            "Audience engagement will be evaluated using analytics from the official Dance Verz YouTube, Facebook, and TikTok platforms. Only genuine, organic engagement will be considered when calculating scores.",
+            "Hethen Live reserves the right to review platform analytics and exclude any engagement identified as artificial, fraudulent, purchased, automated, incentivized, or otherwise inauthentic, including but not limited to paid likes, comments, shares, bot activity, fake accounts, engagement pods, or any attempts to manipulate the competition.",
+            "The Organiser's decision regarding the validity of engagement and the final scoring will be final.",
+          ],
+        },
         winnerTitle: "Winner Selection",
         winnerText:
           "The participant or team with the highest total engagement score when voting closes at 6:00 PM on 30th August 2026 will be crowned the Dance Verz Champion 2026. The official winner will be announced on 31st August 2026.",
@@ -89,13 +97,13 @@ export const content = {
           "Submit in high quality (minimum 1080p HD recommended).",
           "Participants may perform using any music track of their choice.",
         ],
-        
+
       },
     },
 
     // Tracks
     tracks: [
-      
+
     ],
 
     // Contact
@@ -169,11 +177,11 @@ export const content = {
           "සියලුම තරඟ වීඩියෝ නිල Dance Verz 2026 නාලිකා හරහා ප්‍රකාශිත කෙරේ:",
         platforms: ["YouTube", "Facebook", "TikTok"],
         socialLinks: {
-                      youtube: "https://youtube.com/@hethenlive?si=f85XVYsb39iXLS1A",
-                      facebook: "https://www.facebook.com/profile.php?id=61590363440079",
-                      tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
-                      },
-        engagementNote:"ප්‍රකාශයට පත් කරන දිනය: 2026 ජූලි 31 ප්‍රේක්ෂක ප්‍රතිචාර සඳහා (Public Voting) : 2026 ජූලි 31 සිට 2026 අගෝස්තු 30 ප.ව. 6.00 දක්වා විවෘතව පවතී.",
+          youtube: "https://youtube.com/@hethenlive?si=f85XVYsb39iXLS1A",
+          facebook: "https://www.facebook.com/profile.php?id=61590363440079",
+          tiktok: "https://www.tiktok.com/@hethenlive?is_from_webapp=1&sender_device=pc",
+        },
+        engagementNote: "ප්‍රකාශයට පත් කරන දිනය: 2026 ජූලි 31 ප්‍රේක්ෂක ප්‍රතිචාර සඳහා (Public Voting) : 2026 ජූලි 31 සිට 2026 අගෝස්තු 30 ප.ව. 6.00 දක්වා විවෘතව පවතී.",
         votingNote: "ජයග්‍රාහකයා තෝරාගනු ලබන්නේ, නිල තරඟ වීඩියෝවට TikTok, Facebook සහ YouTube යන සමාජ මාධ්‍ය වේදිකා තුනෙන්ම ලැබෙන සමස්ත ප්‍රේක්ෂක ප්‍රතිචාර (Likes, Comments සහ Shares) මත පදනම්වය. ප්‍රේක්ශක ප්‍රතිචාර සඳහා වෙන්කරන ලද කාලය අවසන්වූ පසු මෙම ප්‍රතිචාර එකතු කර ගණනය කර අවසන් ප්‍රතිඵලය තීරණය කරනු ලැබේ. මනාප ලබා දීමේ කාලසීමාව අවසානයේදී ලකුණු ගණනය කරනු ලබන්නේ පහත පරිදිය:",
         points: [
           { icon: "❤️", label: "Like 1", value: "ලකුණු 1" },
@@ -189,6 +197,14 @@ export const content = {
           ["Platform Total", "ලකුණු 510", "ලකුණු 1,685", "ලකුණු 90"],
         ],
         grandTotal: "🏆 සම්පූර්ණ ලකුණු: 2,285",
+        fairPlay: {
+          title: "▶ ප්‍රේක්ෂක සහභාගීත්වය සහ සාධාරණ තරඟකාරිත්වය",
+          paragraphs: [
+            "ප්‍රේක්ෂක සහභාගීත්වය (Audience Engagement) නිල Dance Verz YouTube, Facebook සහ TikTok සමාජ මාධ්‍ය ජාලා විශ්ලේෂණ දත්ත (Analytics) මත ඇගයීමට ලක් කෙරේ. ලකුණු ගණනය කිරීමේදී සලකා බලනු ලබන්නේ සැබෑ හා ස්වාභාවික ප්‍රේක්ෂක සහභාගීත්වය පමණි.",
+            "ගෙවීම් කර ලබාගත් Likes, Comments, Shares, ව්‍යාජ ගිණුම් (Fake Accounts), Bots, Engagement Pods හෝ තරඟයේ ප්‍රතිඵල බලපෑමට ලක් කිරීමට උත්සාහ කරන ඕනෑම කෘතිම, වංචනික හෝ අසත්‍ය සහභාගීත්වයක් Hethen Live විසින් සමාජ මාධ්‍ය ජාලා විශ්ලේෂණ දත්ත මගින් සමාලෝචනය කර අවලංගු කිරීමට හෝ ලකුණු ගණනයෙන් ඉවත් කිරීමට අයිතිය රඳවා ගනී.",
+            "සහභාගීත්වයේ වලංගුභාවය සහ අවසාන ලකුණු සම්බන්ධයෙන් සංවිධායකවරයාගේ තීරණය අවසාන තීරණය ලෙස සැලකේ.",
+          ],
+        },
         winnerTitle: "ජයග්‍රාහකයා තෝරන ආකාරය",
         winnerText:
           "2026 අගෝස්තු 30 වන දින ප.ව. 6.00ට මහජන ඡන්දය (Public Voting) අවසන් වන විට වැඩිම සමස්ත ප්‍රේක්ෂක ප්‍රතිචාර ලකුණු (Engagement Score) ලබාගත් තරඟකරු හෝ කණ්ඩායම Dance Verz Champion 2026 ලෙස කිරුළු පළඳිනු ලබයි. නිල ජයග්‍රාහකයා 2026 අගෝස්තු 31 වන දින ප්‍රකාශයට පත් කරනු ලැබේ.",

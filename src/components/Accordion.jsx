@@ -86,6 +86,16 @@ function ScoringBody({ c, tracks }) {
       </div>
       <div className="scoring-grand-total">{c.scoring.grandTotal}</div>
 
+      {/* Fair Play notice */}
+      {c.scoring.fairPlay && (
+        <div className="fair-play-block">
+          <h4>{c.scoring.fairPlay.title}</h4>
+          {c.scoring.fairPlay.paragraphs.map((para, i) => (
+            <p key={i}>{para}</p>
+          ))}
+        </div>
+      )}
+
       {/* Winner selection */}
       <div className="winner-block">
         <h4>🏆 {c.scoring.winnerTitle}</h4>
